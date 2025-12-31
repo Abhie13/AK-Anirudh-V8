@@ -259,7 +259,57 @@
     .picon img{width:28px;height:28px; object-fit:contain}
     .pcard h4{margin:0 0 6px; font-size:16px}
     .pcard p{margin:0; color:var(--muted); font-size:14px}
+    
+    /* =========================
+       MOBILE: Reduce section spacing
+       ========================= */
+    @media (max-width: 980px){
 
+      /* Main section padding */
+          .section{
+        padding: 36px 0;   /* पहले 64px था */
+      }
+
+      /* Hero top-bottom spacing */
+      .hero{
+        padding: 28px 0 18px;
+      }
+
+      /* Section titles spacing */
+      .section-title{
+        margin-bottom: 6px;
+      }
+
+      .section-sub{
+        margin-bottom: 14px;
+      }
+
+      /* Product / content blocks */
+      .product-page{
+        margin-top: 10px;
+      }
+
+      /* Testimonials spacing */
+      .tslider{
+        margin-top: 10px;
+      }
+
+      /* Gallery spacing */
+      .gallery-wrap{
+        padding: 28px 0;
+      }
+    
+      /* Guru section spacing */
+      .guru{
+        padding: 36px 0;
+      }
+    
+      /* Between cards spacing */
+      .pgrid,
+      .t-highlights{
+        gap: 10px;
+      }
+    }
     /* Mobile: convert to slider */
     .pslider{
       position:relative;
@@ -1790,5 +1840,6 @@
   </script>
 </body>
 </html>
+
 
 

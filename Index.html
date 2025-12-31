@@ -864,6 +864,17 @@
         object-fit: contain;
       }
     }
+      /* =========================
+         MOBILE: Remove sticky header
+         ========================= */
+      @media (max-width: 980px){
+        .topbar{
+          position: static !important;
+          top: auto !important;
+          backdrop-filter: none;
+        }
+      }
+
   </style>
 </head>
 
@@ -1780,3 +1791,4 @@
   </script>
 </body>
 </html>
+
